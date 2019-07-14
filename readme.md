@@ -136,6 +136,8 @@ Inspecting [9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9
 - Note: this will not work as expected `onClick={alert('click')}`
 
 
+[:ship: f84b6de](https://github.com/arafatm/tutorial_intro_to_react/commit/f84b6de) Square constructor to remember state
+
 xxx
 
 ### Developer Tools
