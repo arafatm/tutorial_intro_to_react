@@ -143,6 +143,8 @@ Inspecting [9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9
 - Add state to a component with `this.state` in the constructor
 - constructor should start with `super(props);` if it's a baseclass e.g. `extends React.Component`
 
+[:ship: 3269d53](https://github.com/arafatm/tutorial_intro_to_react/commit/3269d53) change Square to render current state when clicked
+
 xxx
 
 ### Developer Tools
