@@ -50,14 +50,17 @@ elements.map(({ length :lengthFooBArX }) => lengthFooBArX); // [8, 6, 7, 9]
 // itself of the variable `length` is used as the property we want to retrieve from the object.
 elements.map(({ length }) => length); // [8, 6, 7, 9]
 ```
+</p></details>
 
+<details><summary>:construction: Arrow functions with `this`</summary><p>
 ```javascript
 function Person(){
-  this.age = 0;
+  this.age = 0; // without arrow function you would have to `that = this`
 
   setInterval(() => {
     this.age++; // |this| properly refers to the Person object
   }, 1000);
+
 }
 
 var p = new Person();
