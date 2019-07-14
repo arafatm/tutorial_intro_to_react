@@ -118,14 +118,16 @@ Inspecting [9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9
 
 ### Passing Data Through Props
 
-Before/After
-![before](./1_before.png)
-![after](./1_after.png) <!-- .element height="10px" width="10px" -->
+Before
+
+![before](./1_before.png){:height="36px" width="36px"}
 
 [:ship: 2f82d91](https://github.com/arafatm/tutorial_intro_to_react/commit/2f82d91) 1st example passing props. Note the board now displays the square index
 - `this.props.value`
 
+After
 
+![after](./1_after.png) <!-- .element height="10px" width="10px" -->
 xxx
 
 
