@@ -137,17 +137,18 @@ Inspecting [9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9
 
 #### Remembering State
 
-
-
 [:ship: f84b6de](https://github.com/arafatm/tutorial_intro_to_react/commit/f84b6de) Square constructor to remember state
 - Add state to a component with `this.state` in the constructor
 - constructor should start with `super(props);` if it's a baseclass e.g. `extends React.Component`
 
 [:ship: 3269d53](https://github.com/arafatm/tutorial_intro_to_react/commit/3269d53) change Square to render current state when clicked
+- `setState` automatically updates child components
 
 xxx
 
 ### Developer Tools
+
+Use **React Developer Tools** to debug
 
 ## Completing the Game
 
