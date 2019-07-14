@@ -135,8 +135,13 @@ Inspecting [9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9
 - avoids confusing `this` behavior
 - Note: this will not work as expected `onClick={alert('click')}`
 
+#### Remembering State
+
+
 
 [:ship: f84b6de](https://github.com/arafatm/tutorial_intro_to_react/commit/f84b6de) Square constructor to remember state
+- Add state to a component with `this.state` in the constructor
+- constructor should start with `super(props);` if it's a baseclass e.g. `extends React.Component`
 
 xxx
 
