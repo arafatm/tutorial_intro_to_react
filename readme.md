@@ -122,6 +122,8 @@ Inspecting [9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9
 | ------------------------- | ----------------------- |
 | ![before](./1_before.png) | ![after](./1_after.png) |
 
+![test](https://github.com/arafatm/tutorial_intro_to_react/blob/master/1_after.png)
+
 [:ship: 2f82d91](https://github.com/arafatm/tutorial_intro_to_react/commit/2f82d91) 1st example passing props. Note the board now displays the square index
 - `this.props.value`
 
