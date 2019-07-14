@@ -81,6 +81,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/con
 
 [`npx create-react-app my-app`](https://github.com/arafatm/tutorial_intro_to_react/commit/421395e9585c0c50309abdf4c8ce2bb2c4e7dfa8)
 
+[:ship: d787d08](https://github.com/arafatm/tutorial_intro_to_react/commit/d787d08) clean src folder
+```bash
+rm -f src/*
+```
+
 xxx
 
 ## Overview
