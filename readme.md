@@ -76,9 +76,13 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/con
 - `const number = 42;` cannot be reassigned or redeclared
 
 ## Setup for the Tutorial
-### Option 1: Write Code in the Browser
+
 ### Option 2: Local Development Environment
-### Help, I'm Stuck!
+
+[`npx create-react-app my-app`](https://github.com/arafatm/tutorial_intro_to_react/commit/421395e9585c0c50309abdf4c8ce2bb2c4e7dfa8)
+
+xxx
+
 ## Overview
 ### What Is React?
 ### Inspecting the Starter Code
