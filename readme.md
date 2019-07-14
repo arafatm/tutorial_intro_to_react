@@ -95,6 +95,8 @@ npx create-react-app my-app
 rm -f src/*
 ```
 
+[:ship: 9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9f8d3d8) copy base code for this tutorial
+
 xxx
 
 ## Overview
