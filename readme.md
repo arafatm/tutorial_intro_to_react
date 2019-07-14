@@ -119,7 +119,7 @@ Inspecting [9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9
 ### Passing Data Through Props
 
 Before
-<img src="1_before.png />
+<img src="./1_before.png" max-width="30%" />
 
 [:ship: 2f82d91](https://github.com/arafatm/tutorial_intro_to_react/commit/2f82d91) 1st example passing props. Note the board now displays the square index
 - `this.props.value`
