@@ -17,9 +17,11 @@ Final Result: https://codepen.io/gaearon/pen/gWWZgR?editors=0010
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 - Syntactically compact alternative to a regular function expression, 
 - without its own bindings to the `this`, `arguments`, `super`, or `new.target` 
-- Arrow function expressions are ill suited as methods
+- Arrow function expressions are ill suited as **methods**
 - they cannot be used as constructors.
 - doesn't require explicit `that = this`
+
+<details><summary>Example Arrow functions</summary><p>
 
 ```javascript
 var elements = [ 'Hydrogen', 'Helium', 'Lithium', 'Beryllium' ];
@@ -60,6 +62,7 @@ function Person(){
 
 var p = new Person();
 ```
+</p></details>
 
 #### Classes
 
@@ -79,7 +82,10 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/con
 
 ### Option 2: Local Development Environment
 
-[`npx create-react-app my-app`](https://github.com/arafatm/tutorial_intro_to_react/commit/421395e9585c0c50309abdf4c8ce2bb2c4e7dfa8)
+[:ship: 4e7dfa8](https://github.com/arafatm/tutorial_intro_to_react/commit/421395e9585c0c50309abdf4c8ce2bb2c4e7dfa8)
+```bash
+npx create-react-app my-app
+```
 
 [:ship: d787d08](https://github.com/arafatm/tutorial_intro_to_react/commit/d787d08) clean src folder
 ```bash
