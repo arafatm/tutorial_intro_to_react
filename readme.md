@@ -125,7 +125,7 @@ Before
 - `this.props.value`
 
 After
-![after](./1_after.png)<!-- .element width="5em" -->
+![after](./1_after.png)<!-- .element height="50%" width="50%" -->
 
 xxx
 
