@@ -131,6 +131,10 @@ Inspecting [9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9
 [:ship: 51beb08](https://github.com/arafatm/tutorial_intro_to_react/commit/51beb08) example interactivity with onClick
 
 [:ship: 6bd6394](https://github.com/arafatm/tutorial_intro_to_react/commit/6bd6394) interactive with =>
+- refactor `function()` to `() =>` 
+- avoids confusing `this` behavior
+- Note: this will not work as expected `onClick={alert('click')}`
+
 
 xxx
 
