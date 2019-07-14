@@ -52,7 +52,8 @@ elements.map(({ length }) => length); // [8, 6, 7, 9]
 ```
 </p></details>
 
-<details><summary>:construction: Arrow functions with `this`</summary><p>
+<details><summary>:construction: Arrow functions with this</summary><p>
+
 ```javascript
 function Person(){
   this.age = 0; // without arrow function you would have to `that = this`
