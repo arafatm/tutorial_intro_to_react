@@ -128,6 +128,8 @@ Inspecting [9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9
 
 ### Making an Interactive Component
 
+[:ship: 51beb08](https://github.com/arafatm/tutorial_intro_to_react/commit/51beb08) example interactivity with onClick
+
 xxx
 
 ### Developer Tools
