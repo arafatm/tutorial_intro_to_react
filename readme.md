@@ -97,24 +97,55 @@ rm -f src/*
 
 [:ship: 9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9f8d3d8) copy base code for this tutorial
 
+## Overview
+
+### What Is React?
+
+Compose complex UIs from small and isolated **components**
+
+A `React.Component` 
+- takes in parameters, called `props`  
+- returns a hierarchy of views to display via the `render` method.
+
+### Inspecting the Starter Code
+
+Inspecting [9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9f8d3d8)
+- there are 3 components: square, board, game
+- square renders a single `<button>`
+- board renders 9 squares
+- game renders a board
+
+### Passing Data Through Props
 xxx
 
-## Overview
-### What Is React?
-### Inspecting the Starter Code
-### Passing Data Through Props
+
 ### Making an Interactive Component
+
 ### Developer Tools
+
 ## Completing the Game
+
 ### Lifting State Up
+
 ### Why Immutability Is Important
+
 ### Function Components
+
 ### Taking Turns
+
 ### Declaring a Winner
+
 ## Adding Time Travel
+
 ### Storing a History of Moves
+
 ### Lifting State Up, Again
+
 ### Showing the Past Moves
+
 ### Picking a Key
+
 ### Implementing Time Travel
+
 ### Wrapping Up
+
