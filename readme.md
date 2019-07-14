@@ -21,7 +21,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arro
 - they cannot be used as constructors.
 - doesn't require explicit `that = this`
 
-<details><summary>Example Arrow functions</summary><p>
+<details><summary>:construction: Example Arrow functions</summary><p>
 
 ```javascript
 var elements = [ 'Hydrogen', 'Helium', 'Lithium', 'Beryllium' ];
