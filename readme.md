@@ -123,25 +123,36 @@ Inspecting [9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9
 | <img src="1_before.png" width="100px" /> | <img src="1_after.png" width="100px" /> |
 
 
-[:ship: 2f82d91](https://github.com/arafatm/tutorial_intro_to_react/commit/2f82d91) 1st example passing props. Note the board now displays the square index
+[:ship:
+2f82d91](https://github.com/arafatm/tutorial_intro_to_react/commit/2f82d91) 1st
+example passing props. Note the board now displays the square index
 - `this.props.value`
 
 ### Making an Interactive Component
 
-[:ship: 51beb08](https://github.com/arafatm/tutorial_intro_to_react/commit/51beb08) example interactivity with onClick
+[:ship:
+51beb08](https://github.com/arafatm/tutorial_intro_to_react/commit/51beb08)
+example interactivity with onClick
 
-[:ship: 6bd6394](https://github.com/arafatm/tutorial_intro_to_react/commit/6bd6394) interactive with =>
+[:ship:
+6bd6394](https://github.com/arafatm/tutorial_intro_to_react/commit/6bd6394)
+interactive with =>
 - refactor `function()` to `() =>` 
 - avoids confusing `this` behavior
 - Note: this will not work as expected `onClick={alert('click')}`
 
 #### Remembering State
 
-[:ship: f84b6de](https://github.com/arafatm/tutorial_intro_to_react/commit/f84b6de) Square constructor to remember state
+[:ship:
+f84b6de](https://github.com/arafatm/tutorial_intro_to_react/commit/f84b6de)
+Square constructor to remember state
 - Add state to a component with `this.state` in the constructor
-- constructor should start with `super(props);` if it's a baseclass e.g. `extends React.Component`
+- constructor should start with `super(props);` if it's a baseclass e.g.
+  `extends React.Component`
 
-[:ship: 3269d53](https://github.com/arafatm/tutorial_intro_to_react/commit/3269d53) change Square to render current state when clicked
+[:ship:
+3269d53](https://github.com/arafatm/tutorial_intro_to_react/commit/3269d53)
+change Square to render current state when clicked
 - `setState` automatically updates child components
 
 ### Developer Tools
@@ -153,10 +164,21 @@ Use **React Developer Tools** to debug
 ### Lifting State Up
 
 To collect data from multiple children, or to have two child components
-communicate with each other, you need to declare the shared state in their
-parent component instead. The parent component can pass the state back down to
+communicate with each other, you need to **declare the shared state in their
+parent component** instead. The parent component can pass the state back down to
 the children by using props; this keeps the child components in sync with each
 other and with the parent component.
+
+[:ship:
+d22767e](https://github.com/arafatm/tutorial_intro_to_react/commit/d22767e)
+Lift state for Squares into parent Board
+- `Board` now maintains states for all `squares`
+- In the beginning, we passed the value prop down from the Board to show
+  numbers from 0 to 8 in every Square. 
+- In a different previous step, we replaced the numbers with an “X” mark
+  determined by Square’s own state. 
+- This is why Square currently ignores the value prop passed to it by the
+  Board.
 
 xxx
 
