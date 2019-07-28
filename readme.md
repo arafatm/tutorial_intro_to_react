@@ -144,8 +144,6 @@ Inspecting [9f8d3d8](https://github.com/arafatm/tutorial_intro_to_react/commit/9
 [:ship: 3269d53](https://github.com/arafatm/tutorial_intro_to_react/commit/3269d53) change Square to render current state when clicked
 - `setState` automatically updates child components
 
-xxx
-
 ### Developer Tools
 
 Use **React Developer Tools** to debug
@@ -153,6 +151,14 @@ Use **React Developer Tools** to debug
 ## Completing the Game
 
 ### Lifting State Up
+
+To collect data from multiple children, or to have two child components
+communicate with each other, you need to declare the shared state in their
+parent component instead. The parent component can pass the state back down to
+the children by using props; this keeps the child components in sync with each
+other and with the parent component.
+
+xxx
 
 ### Why Immutability Is Important
 
